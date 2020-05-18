@@ -22,14 +22,34 @@ class Base extends Controller
 
     /**
      * 类似于拦截器
-     * 可用于权限相关的判断
-     * @param $action
+     * @param string|null $action
      * @return bool|null
      */
-    public function onRequest($action): ?bool
+    protected function onRequest(?string $action): ?bool
     {
-        $this->getParams();
+        $ret =  parent::onRequest($action);
+        if($ret === false){
+            return false;
+        }
+        $v = $this->validateRule($action);
+        if($v){
+            $ret = $this->validate($v);
+            if($ret == false){
+                $this->writeJson(Status::CODE_BAD_REQUEST,null,"{$v->getError()->getField()}@{$v->getError()->getFieldAlias()}:{$v->getError()->getErrorRuleMsg()}");
+                return false;
+            }
+        }
         return true;
+    }
+
+    /**
+     * 验证规则
+     * @param string|null $action
+     * @return Validate|null
+     */
+    protected function validateRule(?string $action):?Validate
+    {
+
     }
 
     public function getParams()
