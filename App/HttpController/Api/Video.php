@@ -170,7 +170,7 @@ class Video extends Base
         $v = new Validate();
         switch ($action){
             case 'add':{
-                $v->addColumn('name','视频名称')->required('不能为空')->length(20,'长度错误');
+                $v->addColumn('name','视频名称')->required('不能为空')->lengthMax(20,'长度错误');
                 $v->addColumn('url','视频地址')->required('不能为空');
                 $v->addColumn('image', '图片地址')->required('不能为空');
                 $v->addColumn('content', '视频描述')->required('不能为空');

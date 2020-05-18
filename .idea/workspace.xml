@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="611badf3-6efa-4579-8a11-5fcea4e483ec" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/App/HttpController/Api/Base.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/HttpController/Api/Base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/HttpController/Api/Video.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/HttpController/Api/Video.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,8 +61,8 @@
       <file leaf-file-name="Video.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/HttpController/Api/Video.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="177" column="22" lean-forward="true" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
+            <state relative-caret-position="264">
+              <caret line="173" column="62" lean-forward="true" selection-start-line="173" selection-start-column="62" selection-end-line="173" selection-end-column="62" />
               <folding>
                 <element signature="e#41#75#0#PHP" expanded="true" />
                 <element signature="e#490#1893#0#PHP" />
@@ -76,8 +76,8 @@
       <file leaf-file-name="Base.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/HttpController/Api/Base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1617">
-              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            <state relative-caret-position="393">
+              <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
               <folding>
                 <element signature="e#40#89#0#PHP" expanded="true" />
               </folding>
@@ -135,8 +135,8 @@
         <option value="$PROJECT_DIR$/App/HttpController/Api/Index.php" />
         <option value="$PROJECT_DIR$/EasySwooleEvent.php" />
         <option value="$PROJECT_DIR$/App/Model/Es/EsClient.php" />
-        <option value="$PROJECT_DIR$/App/HttpController/Api/Video.php" />
         <option value="$PROJECT_DIR$/App/HttpController/Api/Base.php" />
+        <option value="$PROJECT_DIR$/App/HttpController/Api/Video.php" />
       </list>
     </option>
   </component>
@@ -246,12 +246,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589770192663</updated>
-      <workItem from="1589770193970" duration="14276000" />
+      <workItem from="1589770193970" duration="14428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14276000" />
+    <option name="totallyTimeSpent" value="14428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -516,8 +516,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/HttpController/Api/Base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1617">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="393">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
           <folding>
             <element signature="e#40#89#0#PHP" expanded="true" />
           </folding>
@@ -526,8 +526,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/HttpController/Api/Video.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="177" column="22" lean-forward="true" selection-start-line="177" selection-start-column="22" selection-end-line="177" selection-end-column="22" />
+        <state relative-caret-position="264">
+          <caret line="173" column="62" lean-forward="true" selection-start-line="173" selection-start-column="62" selection-end-line="173" selection-end-column="62" />
           <folding>
             <element signature="e#41#75#0#PHP" expanded="true" />
             <element signature="e#490#1893#0#PHP" />
