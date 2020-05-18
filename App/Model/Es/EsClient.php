@@ -1,9 +1,9 @@
 <?php
 namespace App\Model\Es;
 
-use EasySwoole\Core\AbstractInterface\Singleton;
+use EasySwoole\Component\Singleton;
 use Elasticsearch\ClientBuilder;
-use EasySwoole\Core\Component\Logger;
+use EasySwoole\Component\Logger;
 class EsClient
 {
     //单例模式

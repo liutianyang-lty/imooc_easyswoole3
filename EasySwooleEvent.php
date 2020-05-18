@@ -13,7 +13,7 @@ use App\Lib\Redis\Redis;
 use App\Lib\Redis\Redis2;
 use EasySwoole\Utility\File;
 use App\Lib\Process\ConsumerTest;
-use EasySwoole\Component\Crontab\CronTab;
+//use EasySwoole\Component\Crontab\CronTab;
 use App\Lib\Cache\Video as videoCache;
 use EasySwoole\Component\Timer;
 use App\Model\Es\EsClient;

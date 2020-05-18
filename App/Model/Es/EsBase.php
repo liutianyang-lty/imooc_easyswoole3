@@ -1,7 +1,7 @@
 <?php
 namespace App\Model\Es;
 
-use EasySwoole\Core\Component\Di;
+use EasySwoole\Component\Di;
 class EsBase {
 
     public $esClient = null;
