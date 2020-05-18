@@ -25,19 +25,6 @@ class EasySwooleEvent implements Event
     {
         // TODO: Implement initialize() method.
         date_default_timezone_set('Asia/Shanghai');
-        //载入项目 Config 目录中所有的配置文件
-        self::loadConf(EASYSWOOLE_ROOT . '/Config');
-    }
-
-    public static function loadConf($ConfPath)
-    {
-        $Conf = Config::getInstance();
-        $files = File::scanDir($ConfPath);
-        //var_dump($files);
-        foreach ($files as $file) {
-            $data = require_once $file;
-            $Conf->setConf(strtolower(basename($file, '.php')),(array)$data);
-        }
     }
 
     public static function mainServerCreate(EventRegister $register)
