@@ -1,0 +1,4 @@
+[2020-05-18 11:45:37 *25888.3]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Class 'EasySwoole\Core\Http\AbstractInterface\Controller' not found in /www/wwwroot/imooc_easyswoole3/App/HttpController/Category.php on line 4
+[2020-05-18 11:45:37 $25882.0]	WARNING	swManager_check_exit_status: worker#3[pid=25888] abnormal exit, status=255, signal=0
+[2020-05-18 11:47:20 *27339.3]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Class 'EasySwoole\Core\Http\AbstractInterface\Controller' not found in /www/wwwroot/imooc_easyswoole3/App/HttpController/Category.php on line 4
+[2020-05-18 11:47:20 $27333.0]	WARNING	swManager_check_exit_status: worker#3[pid=27339] abnormal exit, status=255, signal=0
