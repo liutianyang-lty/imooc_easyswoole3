@@ -127,17 +127,17 @@ class Video extends Base
         Logger::getInstance()->log($this->logType . "add:" . json_encode($params));
 
         //数据校验
-        $ruleObj = new Rules();
-        $ruleObj->add('name', "视频名称错误")->withRule(Rule::REQUIRED)->withRule(Rule::MAX_LEN, 20);
-        $ruleObj->add('url', "视频地址错误")->withRule(Rule::REQUIRED);
-        $ruleObj->add('image', "图片地址错误")->withRule(Rule::REQUIRED);
-        $ruleObj->add('content', "视频描述错误")->withRule(Rule::REQUIRED);
-        $ruleObj->add('cat_id', "栏目ID错误")->withRule(Rule::REQUIRED);
-        $validate = $this->validateParams($ruleObj);
-        if ($validate->hasError()) {
-            print_r($validate->getErrorList());
-            return $this->writeJson(Status::CODE_BAD_REQUEST, $validate->getErrorList()->first()->getMessage());
-        }
+//        $ruleObj = new Rules();
+//        $ruleObj->add('name', "视频名称错误")->withRule(Rule::REQUIRED)->withRule(Rule::MAX_LEN, 20);
+//        $ruleObj->add('url', "视频地址错误")->withRule(Rule::REQUIRED);
+//        $ruleObj->add('image', "图片地址错误")->withRule(Rule::REQUIRED);
+//        $ruleObj->add('content', "视频描述错误")->withRule(Rule::REQUIRED);
+//        $ruleObj->add('cat_id', "栏目ID错误")->withRule(Rule::REQUIRED);
+//        $validate = $this->validateParams($ruleObj);
+//        if ($validate->hasError()) {
+//            print_r($validate->getErrorList());
+//            return $this->writeJson(Status::CODE_BAD_REQUEST, $validate->getErrorList()->first()->getMessage());
+//        }
         $data = [
             'name' => $params['name'],
             'url' => $params['url'],
@@ -163,5 +163,21 @@ class Video extends Base
             return $this->writeJson(Status::CODE_BAD_REQUEST, "提交视频有误", ['id' =>0]);
         }
 
+    }
+
+    protected function validateRule(?string $action): ?Validate
+    {
+        $v = new Validate();
+        switch ($action){
+            case 'add':{
+                $v->addColumn('name','视频名称')->required('不能为空')->length(20,'长度错误');
+                $v->addColumn('url','视频地址')->required('不能为空');
+                $v->addColumn('image', '图片地址')->required('不能为空');
+                $v->addColumn('content', '视频描述')->required('不能为空');
+                $v->addColumn('cat_id', '栏目ID')->required('不能为空');
+                break;
+            }
+        }
+        return $v;
     }
 }
