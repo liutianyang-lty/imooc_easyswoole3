@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="611badf3-6efa-4579-8a11-5fcea4e483ec" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/App/HttpController/Api/Base.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/HttpController/Api/Category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/HttpController/Api/Index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/HttpController/Api/Search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/HttpController/Api/Upload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/HttpController/Api/Video.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/HttpController/Category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/HttpController/Index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/AliVod.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/README-CN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/build-phar.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/samples/Bucket.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/samples/BucketCors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/samples/BucketLifecycle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/samples/BucketLogging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/samples/BucketReferer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/samples/BucketWebsite.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/samples/Callback.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/samples/Common.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/samples/Config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/samples/Image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/samples/LiveChannel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/samples/MultipartUpload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/samples/Object.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/samples/RunAll.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/samples/Signature.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Core/MimeTypes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Core/OssException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Core/OssUtil.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Http/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Http/RequestCore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Http/RequestCore_Exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Http/ResponseCore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/BucketInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/BucketListInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/CnameConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/CorsConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/CorsRule.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/GetLiveChannelHistory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/GetLiveChannelInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/GetLiveChannelStatus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/LifecycleAction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/LifecycleConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/LifecycleRule.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/ListMultipartUploadInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/ListPartsInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/LiveChannelConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/LiveChannelHistory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/LiveChannelInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/LiveChannelListInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/LoggingConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/ObjectInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/ObjectListInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/PartInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/PrefixInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/RefererConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/StorageCapacityConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/UploadInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/WebsiteConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Model/XmlConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/OssClient.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/AclResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/AppendResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/BodyResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/CallbackResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/CopyObjectResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/DeleteObjectsResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/ExistResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/GetCnameResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/GetCorsResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/GetLifecycleResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/GetLiveChannelHistoryResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/GetLiveChannelInfoResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/GetLiveChannelStatusResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/GetLocationResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/GetLoggingResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/GetRefererResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/GetStorageCapacityResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/GetWebsiteResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/HeaderResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/InitiateMultipartUploadResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/ListBucketsResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/ListLiveChannelResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/ListMultipartUploadResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/ListObjectsResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/ListPartsResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/PutLiveChannelResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/PutSetDeleteResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/Result.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/SymlinkResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/src/OSS/Result/UploadPartResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/AclResultTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/BodyResultTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/BucketCnameTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/BucketInfoTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/BucketLiveChannelTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/CallbackTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/CnameConfigTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/Common.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/ContentTypeTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/CopyObjectResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/CorsConfigTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/ExistResultTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/GetCorsResultTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/GetLifecycleResultTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/GetLoggingResultTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/GetRefererResultTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/GetWebsiteResultTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/HeaderResultTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/HttpTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/InitiateMultipartUploadResultTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/LifecycleConfigTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/ListBucketsResultTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/ListMultipartUploadResultTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/ListObjectsResultTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/ListPartsResultTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/LiveChannelXmlTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/LoggingConfigTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/MimeTypesTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/ObjectAclTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/OssClientBucketCorsTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/OssClientBucketLifecycleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/OssClientBucketLoggingTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/OssClientBucketRefererTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/OssClientBucketStorageCapacityTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/OssClientBucketTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/OssClientBucketWebsiteTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/OssClientImageTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/OssClientMultipartUploadTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/OssClientObjectTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/OssClientRestoreObjectTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/OssClientSignatureTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/OssClientTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/OssExceptionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/OssUtilTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/PutSetDeleteResultTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/RefererConfigTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/StorageCapacityTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/SymlinkTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/TestOssClientBase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/UploadPartResultTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-oss-php-sdk-master/tests/OSS/Tests/WebsiteConfigTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/AcsRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/AcsResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Auth/AbstractCredential.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Auth/Credential.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Auth/EcsRamRoleCredential.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Auth/EcsRamRoleService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Auth/ISigner.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Auth/RamRoleArnCredential.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Auth/RamRoleArnService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Auth/ShaHmac1Signer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Auth/ShaHmac256Signer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Autoloader/Autoloader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/ChangeLog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/DefaultAcsClient.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Exception/ClientException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Exception/ServerException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Http/HttpHelper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Http/HttpResponse.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/IAcsClient.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Profile/DefaultProfile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Profile/IClientProfile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Regions/Endpoint.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Regions/EndpointConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Regions/EndpointProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Regions/LocationService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Regions/ProductDomain.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/Regions/endpoints.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/RoaAcsRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/RpcAcsRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/UnitTest/Auth/CredentialTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/UnitTest/Auth/ShaHmac1SignerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/UnitTest/Auth/ShaHmac256SignerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/UnitTest/BaseTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/UnitTest/BatchCompute/ListImagesRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/UnitTest/DefaultAcsClientTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/UnitTest/Ecs/Rquest/DescribeRegionsRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/UnitTest/Ft/InteTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/UnitTest/Ft/TestRoaApiRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/UnitTest/Ft/TestRpcApiRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/UnitTest/Http/HttpHelperTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/UnitTest/Profile/DefaultProfileTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/UnitTest/Regions/EndPointByLocationTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-core/UnitTest/Regions/EndpointProviderTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/ChangeLog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/AddCategoryRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/AddEditingProjectRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateAuditRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadImageRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/CreateUploadVideoRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/DeleteCategoryRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/DeleteEditingProjectRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/DeleteImageRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/DeleteMezzaninesRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/DeleteStreamRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/DeleteVideoRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/DescribeCdnDomainLogsRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/DescribeDomainBpsDataRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/DescribeDomainFlowDataRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/DescribePlayTopVideosRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/DescribePlayUserAvgRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/DescribePlayUserTotalRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/DescribePlayVideoStatisRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/DescribeRefreshQuotaRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/DescribeRefreshTasksRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetAuditHistoryRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetAuditResultRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetCDNStatisSumRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetCategoriesRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetEditingProjectMaterialsRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetEditingProjectRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetImageInfoRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetMessageCallbackRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetMezzanineInfoRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetOSSStatisRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetPlayInfoRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetVideoConfigRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetVideoInfoRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetVideoInfosRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetVideoListRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetVideoPlayAuthRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/GetVideoPlayInfoRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/ListAIASRJobRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/ListAIJobRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/ListAIVideoCategoryJobRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/ListAIVideoCensorJobRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/ListAIVideoCoverJobRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/ListAIVideoPornRecogJobRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/ListAIVideoSummaryJobRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/ListAIVideoTerrorismRecogJobRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/ListAuditSecurityIpRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/ListLiveRecordVideoRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/ListSnapshotsRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/OpenVodServiceRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/ProduceEditingProjectVideoRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/PushObjectCacheRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/RefreshObjectCachesRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/RefreshUploadVideoRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/SearchEditingProjectRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/SearchMediaRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/SetAuditSecurityIpRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/SetEditingProjectMaterialsRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/SetMessageCallbackRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/SubmitAIASRJobRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/SubmitAIJobRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/SubmitAIVideoCategoryJobRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/SubmitAIVideoCensorJobRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/SubmitAIVideoCoverJobRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/SubmitAIVideoPornRecogJobRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/SubmitAIVideoSummaryJobRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/SubmitAIVideoTerrorismRecogJobRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/SubmitPreprocessJobsRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/SubmitSnapshotJobRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/SubmitTranscodeJobsRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/UpdateCategoryRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/UpdateEditingProjectRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/UpdateImageInfosRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/UpdateVideoInfoRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/UpdateVideoInfosRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/AliyunSdk/aliyun-php-sdk-vod/vod/Request/V20170321/UploadMediaByURLRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/Cache/Video.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/ClassArr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/Process/ConsumerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/Redis/Redis.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/Redis/Redis2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/Upload/Base.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/Upload/Image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/Upload/Video.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Lib/Utils.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Model/Base.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Model/Es/EsBase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Model/Es/EsClient.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Model/Es/EsVideo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Model/Video.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasySwooleEvent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/swoole.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/pid.pid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easyswoole" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/produce.php" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/easyswoole" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/log" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/session" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/utility" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/trigger" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/spl" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/component" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/task" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/http" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/socket" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/config" />
+      <path value="$PROJECT_DIR$/vendor/easyswoole/validate" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="762" />
+    <option name="y" value="177" />
+    <option name="width" value="960" />
+    <option name="height" value="761" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="imooc_easyswoole3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imooc_easyswoole3" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/imooc_esapi" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\imooc_easyswoole3" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration useDefault="false">D:\Git\bin</configuration>
+    <option name="runUnderTerminal" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="611badf3-6efa-4579-8a11-5fcea4e483ec" name="Default" comment="" />
+      <created>1589770192663</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589770192663</updated>
+      <workItem from="1589770193970" duration="1712000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1712000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15075107" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Lib/Cache/Video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
