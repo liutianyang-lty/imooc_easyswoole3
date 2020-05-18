@@ -25,3 +25,114 @@ Stack trace:
 #3 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
 #4 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
 #5 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array at file:/www/wwwroot/imooc_easyswoole3/App/Model/Es/EsClient.php line:23]
+[2020-05-18 15:43:27][debug][error]:[Uncaught Error: Call to undefined method EasySwoole\EasySwoole\EasySwooleEvent::loadConf() in /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php:29
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Core.php(117): EasySwoole\EasySwoole\EasySwooleEvent::initialize()
+#1 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->globalInitialize()
+#2 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /www/wwwroot/imooc_easyswoole3/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#5 {main}
+  thrown at file:/www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php line:29]
+[2020-05-18 15:45:36][debug][info]:[Could not parse URI]
+[2020-05-18 15:45:36][debug][error]:[Uncaught Exception: es连接异常 in /www/wwwroot/imooc_easyswoole3/App/Model/Es/EsClient.php:27
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/component/src/Singleton.php(19): App\Model\Es\EsClient->__construct()
+#1 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(47): App\Model\Es\EsClient::getInstance()
+#2 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Core.php(128): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#3 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#4 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#5 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#6 /www/wwwroot/imooc_eas at file:/www/wwwroot/imooc_easyswoole3/App/Model/Es/EsClient.php line:27]
+[2020-05-18 15:47:35][debug][info]:[Could not parse URI]
+[2020-05-18 15:47:35][debug][error]:[Uncaught Exception: es连接异常 in /www/wwwroot/imooc_easyswoole3/App/Model/Es/EsClient.php:27
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/component/src/Singleton.php(19): App\Model\Es\EsClient->__construct()
+#1 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(47): App\Model\Es\EsClient::getInstance()
+#2 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Core.php(128): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#3 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#4 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#5 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#6 /www/wwwroot/imooc_eas at file:/www/wwwroot/imooc_easyswoole3/App/Model/Es/EsClient.php line:27]
+[2020-05-18 15:50:28][debug][error]:[Uncaught Error: Call to undefined method EasySwoole\Utility\File::scanDir() in /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php:35
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(29): EasySwoole\EasySwoole\EasySwooleEvent::loadConf('/www/wwwroot/im...')
+#1 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Core.php(117): EasySwoole\EasySwoole\EasySwooleEvent::initialize()
+#2 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->globalInitialize()
+#3 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/imooc_easyswoole3/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php line:35]
+[2020-05-18 15:57:01][debug][info]:[Could not parse URI]
+[2020-05-18 15:57:01][debug][error]:[Uncaught Exception: es连接异常 in /www/wwwroot/imooc_easyswoole3/App/Model/Es/EsClient.php:27
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/component/src/Singleton.php(19): App\Model\Es\EsClient->__construct()
+#1 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(47): App\Model\Es\EsClient::getInstance()
+#2 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Core.php(128): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#3 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#4 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#5 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#6 /www/wwwroot/imooc_eas at file:/www/wwwroot/imooc_easyswoole3/App/Model/Es/EsClient.php line:27]
+[2020-05-18 15:58:58][debug][info]:[Could not parse URI]
+[2020-05-18 15:58:58][debug][error]:[Uncaught Exception: es连接异常 in /www/wwwroot/imooc_easyswoole3/App/Model/Es/EsClient.php:27
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/component/src/Singleton.php(19): App\Model\Es\EsClient->__construct()
+#1 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(47): App\Model\Es\EsClient::getInstance()
+#2 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Core.php(128): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#3 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#4 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#5 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#6 /www/wwwroot/imooc_eas at file:/www/wwwroot/imooc_easyswoole3/App/Model/Es/EsClient.php line:27]
+[2020-05-18 15:59:29][debug][info]:[Could not parse URI]
+[2020-05-18 15:59:29][debug][error]:[Uncaught Exception: es连接异常 in /www/wwwroot/imooc_easyswoole3/App/Model/Es/EsClient.php:27
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/component/src/Singleton.php(19): App\Model\Es\EsClient->__construct()
+#1 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(47): App\Model\Es\EsClient::getInstance()
+#2 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Core.php(128): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#3 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#4 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#5 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#6 /www/wwwroot/imooc_eas at file:/www/wwwroot/imooc_easyswoole3/App/Model/Es/EsClient.php line:27]
+[2020-05-18 16:05:38][debug][info]:[Could not parse URI]
+[2020-05-18 16:05:38][debug][error]:[Uncaught Exception: es连接异常 in /www/wwwroot/imooc_easyswoole3/App/Model/Es/EsClient.php:27
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/component/src/Singleton.php(19): App\Model\Es\EsClient->__construct()
+#1 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(47): App\Model\Es\EsClient::getInstance()
+#2 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Core.php(128): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#3 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#4 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#5 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#6 /www/wwwroot/imooc_eas at file:/www/wwwroot/imooc_easyswoole3/App/Model/Es/EsClient.php line:27]
+[2020-05-18 16:07:43][debug][info]:[Could not parse URI]
+[2020-05-18 16:07:43][debug][error]:[Uncaught Exception: es连接异常 in /www/wwwroot/imooc_easyswoole3/App/Model/Es/EsClient.php:27
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/component/src/Singleton.php(19): App\Model\Es\EsClient->__construct()
+#1 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(47): App\Model\Es\EsClient::getInstance()
+#2 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Core.php(128): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#3 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#4 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#5 /www/wwwroot/imooc_easyswoole3/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#6 /www/wwwroot/imooc_eas at file:/www/wwwroot/imooc_easyswoole3/App/Model/Es/EsClient.php line:27]
+[2020-05-18 16:12:09][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:13:09][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:13:51][debug][warning]:[count(): Parameter must be an array or an object that implements Countable at file:/www/wwwroot/imooc_easyswoole3/App/HttpController/Api/Index.php line:67]
+[2020-05-18 16:14:09][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:15:09][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:16:10][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:17:10][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:18:10][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:19:10][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:20:11][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:21:11][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:22:11][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:23:11][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:24:12][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:25:12][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:26:12][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:27:12][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:28:13][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:29:13][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:30:13][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:31:13][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
+[2020-05-18 16:32:14][debug][warning]:[mysqli::__construct(): (HY000/2002): Connection timed out at file:/www/wwwroot/imooc_easyswoole3/vendor/joshcam/mysqli-database-class/MysqliDb.php line:323]
