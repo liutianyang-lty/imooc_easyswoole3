@@ -153,6 +153,7 @@ class Video extends Base
         try {
             $modelObj = new VideoModel();
             $videoId = $modelObj->add($data);
+            Logger::getInstance()->log("video-add:" . $videoId);
         } catch (\Exception $e) {
             return $this->writeJson(Status::CODE_BAD_REQUEST, $e->getMessage());
         }
