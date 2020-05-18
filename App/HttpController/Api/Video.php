@@ -6,7 +6,7 @@ use EasySwoole\Http\Message\Status;
 use EasySwoole\Core\Utility\Validate\Rules;
 use EasySwoole\Validate\Rule;
 use EasySwoole\Component\Logger;
-use EasySwoole\Core\Swoole\Task\TaskManager;
+use EasySwoole\EasySwoole\Task\TaskManager;
 use EasySwoole\Component\Di;
 /**
  * 小视频- 增、删、改、查接口
