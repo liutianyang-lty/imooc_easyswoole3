@@ -8,10 +8,10 @@
 
 namespace App\Lib\Process;
 
-use EasySwoole\Core\Swoole\Process\AbstractProcess;
+use EasySwoole\Component\Process\AbstractProcess;
 use Swoole\Process;
-use \EasySwoole\Core\Component\Di;
-use \EasySwoole\Core\Component\Logger;
+use \EasySwoole\Component\Di;
+use \EasySwoole\Component\Logger;
 
 /**
  * 消息队列的消费者端
