@@ -1,11 +1,11 @@
 <?php
 namespace App\HttpController\Api;
 use App\HttpController\Api\Base;
-use \EasySwoole\Core\Component\Di;
+use \EasySwoole\Component\Di;
 use App\Lib\Redis\Redis;
 use App\Model\Video as VideoModel;
-use EasySwoole\Core\Http\Message\Status;
-use EasySwoole\Core\Component\Cache\Cache;
+use EasySwoole\Http\Message\Status;
+use EasySwoole\Component\Cache\Cache;
 use App\Lib\Cache\Video as VideoCache;
 use App\Model\Es\EsVideo;
 class Index extends Base

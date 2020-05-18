@@ -1,6 +1,6 @@
 <?php
 namespace App\HttpController;
-use EasySwoole\Core\Http\AbstractInterface\Controller;
+use EasySwoole\Http\AbstractInterface\Controller;
 class Category extends Controller
 {
     public function index()

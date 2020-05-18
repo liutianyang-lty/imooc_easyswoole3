@@ -2,7 +2,7 @@
 namespace App\HttpController\Api;
 
 use App\Model\Es\EsVideo;
-use EasySwoole\Core\Http\Message\Status;
+use EasySwoole\Http\Message\Status;
 /**
  * Class Search
  * @package App\HttpController\Api

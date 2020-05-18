@@ -2,12 +2,12 @@
 namespace App\HttpController\Api;
 
 use App\Model\Video as VideoModel;
-use EasySwoole\Core\Http\Message\Status;
+use EasySwoole\Http\Message\Status;
 use EasySwoole\Core\Utility\Validate\Rules;
-use EasySwoole\Core\Utility\Validate\Rule;
-use EasySwoole\Core\Component\Logger;
+use EasySwoole\Validate\Rule;
+use EasySwoole\Component\Logger;
 use EasySwoole\Core\Swoole\Task\TaskManager;
-use EasySwoole\Core\Component\Di;
+use EasySwoole\Component\Di;
 /**
  * 小视频- 增、删、改、查接口
  * Class Upload

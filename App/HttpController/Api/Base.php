@@ -1,6 +1,6 @@
 <?php
 namespace App\HttpController\Api;
-use EasySwoole\Core\Http\AbstractInterface\Controller;
+use EasySwoole\Http\AbstractInterface\Controller;
 
 /**
  * Api模块下的基础类库
