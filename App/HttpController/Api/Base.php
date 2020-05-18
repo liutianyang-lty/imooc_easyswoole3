@@ -36,7 +36,7 @@ class Base extends Controller
         if($v){
             $ret = $this->validate($v);
             if($ret == false){
-                $this->writeJson(Status::CODE_BAD_REQUEST,null,"{$v->getError()->getField()}@{$v->getError()->getFieldAlias()}:{$v->getError()->getErrorRuleMsg()}");
+                $this->writeJson(Status::CODE_BAD_REQUEST,"{$v->getError()->getField()}@{$v->getError()->getFieldAlias()}:{$v->getError()->getErrorRuleMsg()}", null);
                 return false;
             }
         }
