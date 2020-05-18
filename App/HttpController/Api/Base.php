@@ -1,7 +1,7 @@
 <?php
 namespace App\HttpController\Api;
 use EasySwoole\Http\AbstractInterface\Controller;
-
+use EasySwoole\Validate\Validate;
 /**
  * Api模块下的基础类库
  * Class Base
