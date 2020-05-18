@@ -33,7 +33,9 @@ class Base {
             return false;
         }
 
-        return $this->db->insert($this->tableName, $data);
+        $result = $this->db->insert($this->tableName, $data);
+        var_dump($result);
+        return $result;
     }
 
     public function getById($id)
