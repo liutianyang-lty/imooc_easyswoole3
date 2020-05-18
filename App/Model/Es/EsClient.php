@@ -9,7 +9,7 @@ class EsClient
     //单例模式
     use Singleton;
 
-    public static $esClinet = null;
+    public  $esClinet = null;
 
     //私有化构造函数
     private function __construct()
@@ -17,13 +17,13 @@ class EsClient
         $config = \Yaconf::get("es");
         try {
             //es实例
-            self::$esClinet = ClientBuilder::create()->setHosts([$config['host'] . ":" . $config['port']])->build();
+            $this->esClinet = ClientBuilder::create()->setHosts([$config['host'] . ":" . $config['port']])->build();
         } catch (\Exception $e) {
             //记录日志
             Logger::getInstance()->log($e->getMessage());
         }
 
-        if (empty(self::$esClinet)) {
+        if (empty($this->esClinet)) {
             throw new \Exception("es连接异常");
         }
 
@@ -41,6 +41,6 @@ class EsClient
      */
     public function __call($name, $arguments)
     {
-        return self::$esClinet->$name(...$arguments);
+        return $this->esClinet->$name(...$arguments);
     }
 }
