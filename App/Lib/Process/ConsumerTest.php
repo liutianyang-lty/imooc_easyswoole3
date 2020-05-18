@@ -11,7 +11,7 @@ namespace App\Lib\Process;
 use EasySwoole\Component\Process\AbstractProcess;
 use Swoole\Process;
 use \EasySwoole\Component\Di;
-use \EasySwoole\Component\Logger;
+use EasySwoole\EasySwoole\Logger;
 
 /**
  * 消息队列的消费者端

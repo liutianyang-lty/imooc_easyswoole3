@@ -25,6 +25,8 @@ class EasySwooleEvent implements Event
     {
         // TODO: Implement initialize() method.
         date_default_timezone_set('Asia/Shanghai');
+        //载入项目 Config 目录中所有的配置文件
+        self::loadConf(EASYSWOOLE_ROOT . '/Config');
     }
 
     public static function mainServerCreate(EventRegister $register)
@@ -52,6 +54,7 @@ class EasySwooleEvent implements Event
 //            ProcessManager::getInstance()->addProcess("consumer_{$i}", ConsumerTest::class);
 //        }
 
+        //easyswoole3.x写法
 //        $allNum = 3;
 //        for ($i = 0; $i < $allNum; $i++) {
 //            ServerManager::getInstance()->getSwooleServer()->addProcess((new ConsumerTest("imooc_customer_testp_{$i}"))->getProcess());
@@ -76,7 +79,13 @@ class EasySwooleEvent implements Event
 //        });
         $register->add(EventRegister::onWorkerStart, function (\swoole_server $server, $workerId) use ($cacheVideoObj){
             if ($workerId == 0) {
-                Timer::loop(1000*2, function () use ($cacheVideoObj) { //easyswoole自身的定时任务的正确用法
+                //easyswoole2.x写法
+//                Timer::loop(1000*2, function () use ($cacheVideoObj) { //easyswoole自身的定时任务的正确用法
+//                    $cacheVideoObj->setIndexVideo();
+//                });
+
+                //easyswoole3.x写法
+                Timer::getInstance()->loop(1000*2, function () use ($cacheVideoObj) { //easyswoole自身的定时任务的正确用法
                     $cacheVideoObj->setIndexVideo();
                 });
             }

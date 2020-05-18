@@ -3,7 +3,7 @@ namespace App\Model\Es;
 
 use EasySwoole\Component\Singleton;
 use Elasticsearch\ClientBuilder;
-use EasySwoole\Component\Logger;
+use EasySwoole\EasySwoole\Logger;
 class EsClient
 {
     //单例模式

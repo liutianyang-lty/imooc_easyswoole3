@@ -3,9 +3,9 @@ namespace App\HttpController\Api;
 
 use App\Model\Video as VideoModel;
 use EasySwoole\Http\Message\Status;
-use EasySwoole\Core\Utility\Validate\Rules;
-use EasySwoole\Validate\Rule;
-use EasySwoole\Component\Logger;
+//use EasySwoole\Core\Utility\Validate\Rules;
+use EasySwoole\Validate\Validate;
+use EasySwoole\EasySwoole\Logger;
 use EasySwoole\EasySwoole\Task\TaskManager;
 use EasySwoole\Component\Di;
 /**
