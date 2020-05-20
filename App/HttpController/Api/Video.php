@@ -147,6 +147,7 @@ class Video extends Base
             'create_time' => time(),
             'uploader' => 'singwa',
             'status' => \Yaconf::get("status.normal"),
+            'video_id' => rand(1,100)
         ];
 
         //写入数据库
