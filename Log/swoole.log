@@ -2,3 +2,29 @@
 [2020-05-18 11:45:37 $25882.0]	WARNING	swManager_check_exit_status: worker#3[pid=25888] abnormal exit, status=255, signal=0
 [2020-05-18 11:47:20 *27339.3]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Class 'EasySwoole\Core\Http\AbstractInterface\Controller' not found in /www/wwwroot/imooc_easyswoole3/App/HttpController/Category.php on line 4
 [2020-05-18 11:47:20 $27333.0]	WARNING	swManager_check_exit_status: worker#3[pid=27339] abnormal exit, status=255, signal=0
+[2020-05-18 17:37:56 *2387.4]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Declaration of App\HttpController\Api\Video::validateRule(?string $action): ?EasySwoole\Validate\Validate must be compatible with App\HttpController\Api\Base::validateRule(?string $action): ?App\HttpController\Api\Validate in /www/wwwroot/imooc_easyswoole3/App/HttpController/Api/Video.php on line 16
+[2020-05-18 17:37:56 $2370.0]	WARNING	swManager_check_exit_status: worker#4[pid=2387] abnormal exit, status=255, signal=0
+[2020-05-20 17:33:59 *14367.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined function App\Lib\Cache\dump() in /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php:57
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(87): App\Lib\Cache\Video->setIndexVideo()
+#1 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php on line 57
+[2020-05-20 17:34:00 $14364.0]	WARNING	swManager_check_exit_status: worker#0[pid=14367] abnormal exit, status=255, signal=0
+[2020-05-20 17:34:02 *14416.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined function App\Lib\Cache\dump() in /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php:57
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(87): App\Lib\Cache\Video->setIndexVideo()
+#1 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php on line 57
+[2020-05-20 17:34:02 $14364.0]	WARNING	swManager_check_exit_status: worker#0[pid=14416] abnormal exit, status=255, signal=0
+[2020-05-20 17:34:04 *14444.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined function App\Lib\Cache\dump() in /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php:57
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(87): App\Lib\Cache\Video->setIndexVideo()
+#1 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php on line 57
+[2020-05-20 17:34:04 $14364.0]	WARNING	swManager_check_exit_status: worker#0[pid=14444] abnormal exit, status=255, signal=0
+[2020-05-20 17:34:06 *14462.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined function App\Lib\Cache\dump() in /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php:57
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(87): App\Lib\Cache\Video->setIndexVideo()
+#1 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php on line 57
+[2020-05-20 17:34:06 $14364.0]	WARNING	swManager_check_exit_status: worker#0[pid=14462] abnormal exit, status=255, signal=0
