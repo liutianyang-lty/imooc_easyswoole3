@@ -63,9 +63,9 @@ class Video {
 
             if (empty($res)) {
                 //报警 邮件 短信
-                //echo "cat_id:" . $catId . " put data error".PHP_EOL;
+                echo "cat_id:" . $catId . " put data error".PHP_EOL;
             } else {
-                //echo "cat_id:" . $catId . " put data success".PHP_EOL;
+                echo "cat_id:" . $catId . " put data success".PHP_EOL;
             }
 
             //第一套方案：直接读取mysql进行返回
