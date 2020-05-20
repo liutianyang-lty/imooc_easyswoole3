@@ -17,6 +17,7 @@ use App\Lib\Process\ConsumerTest;
 use App\Lib\Cache\Video as videoCache;
 use EasySwoole\Component\Timer;
 use App\Model\Es\EsClient;
+use EasySwoole\FastCache\Cache;
 
 class EasySwooleEvent implements Event
 {
@@ -45,6 +46,9 @@ class EasySwooleEvent implements Event
 
         //Elasticsearch容器注入
         Di::getInstance()->set('ES', EsClient::getInstance());
+
+        //注册fast-cache服务
+        Cache::getInstance()->setTempDir(EASYSWOOLE_TEMP_DIR)->attachToServer(ServerManager::getInstance()->getSwooleServer());
 
         //注册消费者进程
 //        $allNum = 3;

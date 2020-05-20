@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="611badf3-6efa-4579-8a11-5fcea4e483ec" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/App/Lib/Cache/Video.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Lib/Cache/Video.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasySwooleEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/EasySwooleEvent.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,14 +59,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Video.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Video.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Lib/Cache/Video.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+            <state relative-caret-position="264">
+              <caret line="53" column="51" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
               <folding>
                 <element signature="e#32#66#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cache.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/easyswoole/fast-cache/src/Cache.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="155" column="25" lean-forward="true" selection-start-line="155" selection-start-column="25" selection-end-line="155" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -97,22 +107,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EasySwooleEvent.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EasySwooleEvent.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EasySwooleEvent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Redis2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Lib/Redis/Redis2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+            <state relative-caret-position="396">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
-                <element signature="e#32#67#0#PHP" expanded="true" />
+                <element signature="e#41#88#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,7 +142,6 @@
         <option value="$PROJECT_DIR$/App/Lib/Redis/Redis.php" />
         <option value="$PROJECT_DIR$/App/Lib/Process/ConsumerTest.php" />
         <option value="$PROJECT_DIR$/App/HttpController/Api/Index.php" />
-        <option value="$PROJECT_DIR$/EasySwooleEvent.php" />
         <option value="$PROJECT_DIR$/App/Model/Es/EsClient.php" />
         <option value="$PROJECT_DIR$/ini/database.ini" />
         <option value="$PROJECT_DIR$/App/Model/Base.php" />
@@ -151,6 +151,7 @@
         <option value="$PROJECT_DIR$/ini/base.ini" />
         <option value="$PROJECT_DIR$/dev.php" />
         <option value="$PROJECT_DIR$/App/Lib/Cache/Video.php" />
+        <option value="$PROJECT_DIR$/EasySwooleEvent.php" />
       </list>
     </option>
   </component>
@@ -256,12 +257,12 @@
       <option name="presentableId" value="Default" />
       <updated>1589770192663</updated>
       <workItem from="1589770193970" duration="18192000" />
-      <workItem from="1589948777663" duration="6353000" />
+      <workItem from="1589948777663" duration="6608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24545000" />
+    <option name="totallyTimeSpent" value="24800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -272,8 +273,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29451287" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14109442" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29451287" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14109442" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -565,24 +566,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EasySwooleEvent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/电子书/网站源码/网站源码/imooc_es3/imooc_es3/App/Lib/Cache/Video.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/easyswoole/fast-cache/src/Cache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="155" column="25" lean-forward="true" selection-start-line="155" selection-start-column="25" selection-end-line="155" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -620,10 +607,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Lib/Cache/Video.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+        <state relative-caret-position="264">
+          <caret line="53" column="51" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
           <folding>
             <element signature="e#32#66#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/easyswoole/fast-cache/src/Cache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="155" column="25" lean-forward="true" selection-start-line="155" selection-start-column="25" selection-end-line="155" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EasySwooleEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#41#88#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
