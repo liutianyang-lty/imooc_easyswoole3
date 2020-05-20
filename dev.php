@@ -19,5 +19,9 @@ return [
         ]
     ],
     'TEMP_DIR' => null,
-    'LOG_DIR' => null
+    'LOG_DIR' => null,
+    //fast-cache配置
+    'FAST_CACHE' => [
+        'PROCESS_NUM' => 1,
+    ],
 ];

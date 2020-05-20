@@ -52,7 +52,18 @@ class Base extends Controller
      */
     protected function validateRule(?string $action):?Validate
     {
-
+        $v = new Validate();
+        switch ($action){
+            case 'add':{
+                $v->addColumn('name','视频名称')->required('不能为空')->lengthMax(20,'长度错误');
+                $v->addColumn('url','视频地址')->required('不能为空');
+                $v->addColumn('image', '图片地址')->required('不能为空');
+                $v->addColumn('content', '视频描述')->required('不能为空');
+                $v->addColumn('cat_id', '栏目ID')->required('不能为空');
+                break;
+            }
+        }
+        return $v;
     }
 
     /**
