@@ -53,6 +53,9 @@ class Base extends Controller
 
     }
 
+    /**
+     * 公共方法--获得请求参数
+     */
     public function getParams()
     {
         $params = $this->request()->getRequestParam();

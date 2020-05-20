@@ -167,6 +167,11 @@ class Video extends Base
 
     }
 
+    /**
+     * 基于控制器方法的验证规则
+     * @param string|null $action // 控制器方法名
+     * @return Validate|null
+     */
     protected function validateRule(?string $action): ?Validate
     {
         $v = new Validate();
