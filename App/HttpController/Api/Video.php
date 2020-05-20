@@ -44,7 +44,7 @@ class Video extends Base
 
         //播放数统计逻辑
         // 投放task异步任务
-        TaskManager::async(function () use($id) {
+        TaskManager::getInstance()->async(function () use($id) {
             // 逻辑
             // 将播放数存入redis有序集合中
             try {
