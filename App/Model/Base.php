@@ -34,7 +34,6 @@ class Base {
         }
 
         $result = $this->db->insert($this->tableName, $data);
-        var_dump($this->db);
         return $result;
     }
 
