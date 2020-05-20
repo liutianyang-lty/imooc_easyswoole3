@@ -20,8 +20,17 @@ return [
     ],
     'TEMP_DIR' => null,
     'LOG_DIR' => null,
+    'CONSOLE'=>[
+        'ENABLE'=>true,
+        'LISTEN_ADDRESS'=>'127.0.0.1',
+        'HOST'=>'127.0.0.1',
+        'PORT'=>8501,
+        'EXPIRE'=>'120',
+        'AUTH'=>null,
+        'PUSH_LOG'=>true
+    ],
     //fast-cache配置
     'FAST_CACHE' => [
-        'PROCESS_NUM' => 1,
+        'PROCESS_NUM' => 1
     ],
 ];
