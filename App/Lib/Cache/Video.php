@@ -54,6 +54,7 @@ class Video {
                     $res = Cache::getInstance()->set($this->getCatKey($catId), $data);
                     break;
                 case 'redis':
+                    dump($data);
                     $res =  Di::getInstance()->get('REDIS')->set($this->getCatKey($catId), $data);
                     break;
                 default :
