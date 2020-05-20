@@ -28,6 +28,8 @@ class Base extends Controller
      */
     protected function onRequest(?string $action): ?bool
     {
+        //获取请求参数
+        $this->getParams();
         $ret =  parent::onRequest($action);
         if($ret === false){
             return false;
