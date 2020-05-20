@@ -51,6 +51,7 @@ class Video {
                     $res = file_put_contents($this->getVideoCateIdFile($catId), json_encode($data));
                     break;
                 case 'table':
+                    print_r($cacheType);
                     $res = Cache::getInstance()->set($this->getCatKey($catId), $data);
                     print_r($res);
                     break;
