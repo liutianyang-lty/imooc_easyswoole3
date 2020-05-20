@@ -28,3 +28,576 @@ Stack trace:
 #1 {main}
   thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php on line 57
 [2020-05-20 17:34:06 $14364.0]	WARNING	swManager_check_exit_status: worker#0[pid=14462] abnormal exit, status=255, signal=0
+[2020-05-20 18:37:20 *26385.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got '2' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":4,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 18:37:20 $26382.0]	WARNING	swManager_check_exit_status: worker#0[pid=26385] abnormal exit, status=255, signal=0
+[2020-05-20 18:37:22 *30253.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got '5' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":4,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 18:37:22 $26382.0]	WARNING	swManager_check_exit_status: worker#0[pid=30253] abnormal exit, status=255, signal=0
+[2020-05-20 18:37:24 *30281.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got '"' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 18:37:24 $26382.0]	WARNING	swManager_check_exit_status: worker#0[pid=30281] abnormal exit, status=255, signal=0
+[2020-05-20 18:37:26 *30296.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got '1' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 18:37:26 $26382.0]	WARNING	swManager_check_exit_status: worker#0[pid=30296] abnormal exit, status=255, signal=0
+[2020-05-20 18:37:28 *30335.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got '_' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 18:37:28 $26382.0]	WARNING	swManager_check_exit_status: worker#0[pid=30335] abnormal exit, status=255, signal=0
+[2020-05-20 18:37:30 *30373.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got 'f' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 18:37:30 $26382.0]	WARNING	swManager_check_exit_status: worker#0[pid=30373] abnormal exit, status=255, signal=0
+[2020-05-20 18:37:32 *30378.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got '"' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 18:37:32 $26382.0]	WARNING	swManager_check_exit_status: worker#0[pid=30378] abnormal exit, status=255, signal=0
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 221 byte failed, because connection[fd=1157] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 221 byte failed, because connection[fd=968] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 221 byte failed, because connection[fd=438] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1159] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=974] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1161] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=446] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=980] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1163] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=454] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1164] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=986] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=462] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=992] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1166] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=470] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1262] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=998] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=478] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1006] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=486] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1269] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1011] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1016] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=494] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1276] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1021] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=502] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1283] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=510] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1026] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=518] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1290] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=526] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1292] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=534] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1031] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=542] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1293] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=550] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1036] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=558] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1294] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1041] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=566] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1303] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1046] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=574] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1305] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1051] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=582] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1307] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1056] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=590] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1309] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1061] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=598] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1311] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1066] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=606] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1313] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1071] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1314] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=614] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1076] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=622] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1315] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1081] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=630] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1316] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1086] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=638] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1317] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1091] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=646] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1318] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1096] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=654] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1319] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1101] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=662] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1320] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1106] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=670] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1321] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1111] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=678] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1327] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1116] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=686] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1121] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=694] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1334] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=702] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1126] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=710] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=718] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1131] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=726] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1136] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=734] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1141] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1395] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=742] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1148] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1397] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=750] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1150] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1399] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=758] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1401] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=766] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=774] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1152] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=782] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1403] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=790] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1154] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=798] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=806] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1156] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=814] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1405] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=822] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1158] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=830] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1407] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=838] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1160] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=846] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=854] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1409] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=862] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1162] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=870] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1411] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=878] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=886] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1261] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=894] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1413] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=902] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=910] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1268] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=918] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1415] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=956] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1275] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=957] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1417] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=958] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=959] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1282] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=960] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1419] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=965] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1168] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1289] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1170] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1172] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1421] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1326] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1174] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1176] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1333] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1179] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1423] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1182] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1185] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1443] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1188] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1191] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1425] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1194] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1450] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1197] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1200] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1427] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1203] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1457] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1206] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1444] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1209] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1212] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1464] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1215] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1218] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1451] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1221] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1471] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1224] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1227] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1458] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1230] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1478] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1233] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1465] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1236] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1239] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1485] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1242] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1472] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1245] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1248] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1492] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1251] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1428] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1479] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1430] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1432] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1499] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1433] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1486] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1434] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1506] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1435] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1436] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1493] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1437] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1513] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1438] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1439] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1888] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1520] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1890] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1500] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1892] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6229] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1532] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6247] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1507] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6255] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6263] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1539] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6271] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6279] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1514] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6287] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1546] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6295] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6304] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1521] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6312] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6320] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1553] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6328] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1533] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6336] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1560] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6403] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1540] is closed
+[2020-05-20 19:05:20 *18321.6]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6413] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1567] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1574] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1547] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1581] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1554] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1588] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1561] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1595] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1568] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1575] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1637] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1582] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1589] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1644] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1596] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1653] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1638] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1661] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1645] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1668] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1655] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1675] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1662] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1682] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1669] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1689] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1676] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1696] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1683] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1703] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1690] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1710] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1697] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1704] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1731] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1711] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1732] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1738] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1739] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1745] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1746] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1752] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1800] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1806] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1807] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1813] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1814] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1820] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1821] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1827] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1828] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1834] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1835] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1842] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1841] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1849] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1856] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1848] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1859] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1855] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1860] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1884] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1866] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1886] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1868] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1887] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1897] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1898] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1904] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1945] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1951] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1973] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1979] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=2001] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=2007] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1959] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1958] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1987] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1986] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1938] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1966] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1944] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1994] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1972] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1952] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1980] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=2000] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=2008] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=2015] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1965] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=2024] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6239] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=1993] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6252] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6260] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=2014] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6268] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6276] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6284] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=2023] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6292] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6301] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6233] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6309] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6317] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6251] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6325] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6333] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6259] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6400] is closed
+[2020-05-20 19:05:20 *18318.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6410] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6267] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6275] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6283] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6291] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6300] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6308] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6316] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6324] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6332] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6399] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6409] is closed
+[2020-05-20 19:05:20 *18317.2]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 511 byte failed, because connection[fd=6430] is closed
+[2020-05-20 19:13:44 *25129.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got 'i' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":4,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 19:13:44 $25125.0]	WARNING	swManager_check_exit_status: worker#0[pid=25129] abnormal exit, status=255, signal=0
+[2020-05-20 19:13:46 *25713.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got 's' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 19:13:46 $25125.0]	WARNING	swManager_check_exit_status: worker#0[pid=25713] abnormal exit, status=255, signal=0
+[2020-05-20 19:13:48 *25741.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got 't' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 19:13:48 $25125.0]	WARNING	swManager_check_exit_status: worker#0[pid=25741] abnormal exit, status=255, signal=0
+[2020-05-20 19:13:50 *25755.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got '_' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 19:13:50 $25125.0]	WARNING	swManager_check_exit_status: worker#0[pid=25755] abnormal exit, status=255, signal=0
+[2020-05-20 19:13:52 *25782.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got 'e' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 19:13:52 $25125.0]	WARNING	swManager_check_exit_status: worker#0[pid=25782] abnormal exit, status=255, signal=0
+[2020-05-20 19:13:54 *25810.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got '2' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 19:13:54 $25125.0]	WARNING	swManager_check_exit_status: worker#0[pid=25810] abnormal exit, status=255, signal=0
+[2020-05-20 19:13:56 *25826.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got 'e' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 19:13:56 $25125.0]	WARNING	swManager_check_exit_status: worker#0[pid=25826] abnormal exit, status=255, signal=0
+[2020-05-20 19:13:58 *25853.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got '1' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 19:13:58 $25125.0]	WARNING	swManager_check_exit_status: worker#0[pid=25853] abnormal exit, status=255, signal=0
+[2020-05-20 19:14:00 *25905.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got 'a' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 19:14:00 $25125.0]	WARNING	swManager_check_exit_status: worker#0[pid=25905] abnormal exit, status=255, signal=0
+[2020-05-20 19:14:02 *25909.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got 'e' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 19:14:02 $25125.0]	WARNING	swManager_check_exit_status: worker#0[pid=25909] abnormal exit, status=255, signal=0
+[2020-05-20 19:14:04 *25936.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got '"' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 19:14:04 $25125.0]	WARNING	swManager_check_exit_status: worker#0[pid=25936] abnormal exit, status=255, signal=0
+[2020-05-20 19:14:06 *25974.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got '1' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 19:14:06 $25125.0]	WARNING	swManager_check_exit_status: worker#0[pid=25974] abnormal exit, status=255, signal=0
+[2020-05-20 19:14:08 *25978.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got '_' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 19:14:08 $25125.0]	WARNING	swManager_check_exit_status: worker#0[pid=25978] abnormal exit, status=255, signal=0
+[2020-05-20 19:14:10 *26016.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got 'f' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 19:14:10 $25125.0]	WARNING	swManager_check_exit_status: worker#0[pid=26016] abnormal exit, status=255, signal=0
+[2020-05-20 19:14:12 *26059.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: protocol error, got '"' as reply type byte
+ in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php:69
+Stack trace:
+#0 /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php(69): Redis->set('index_video_dat...', '[{"id":6,"name"...')
+#1 /www/wwwroot/imooc_easyswoole3/App/Lib/Cache/Video.php(57): App\Lib\Redis\Redis2->__call('set', Array)
+#2 /www/wwwroot/imooc_easyswoole3/EasySwooleEvent.php(91): App\Lib\Cache\Video->setIndexVideo()
+#3 {main}
+  thrown in /www/wwwroot/imooc_easyswoole3/App/Lib/Redis/Redis2.php on line 69
+[2020-05-20 19:14:12 $25125.0]	WARNING	swManager_check_exit_status: worker#0[pid=26059] abnormal exit, status=255, signal=0
