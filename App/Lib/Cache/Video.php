@@ -52,7 +52,7 @@ class Video {
                     break;
                 case 'table':
                     $res = Cache::getInstance()->set($this->getCatKey($catId), $data);
-                    print_r(Cache::getInstance());
+                    print_r($res);
                     break;
                 case 'redis':
                     $res =  Di::getInstance()->get('REDIS')->set($this->getCatKey($catId), json_encode($data));
