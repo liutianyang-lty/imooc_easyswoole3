@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="611badf3-6efa-4579-8a11-5fcea4e483ec" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/App/Lib/Cache/Video.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Lib/Cache/Video.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasySwooleEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/EasySwooleEvent.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,32 +58,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Video.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Video.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/Lib/Cache/Video.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="53" column="51" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+              <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
               <folding>
                 <element signature="e#32#66#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cache.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/easyswoole/fast-cache/src/Cache.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="155" column="25" lean-forward="true" selection-start-line="155" selection-start-column="25" selection-end-line="155" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dev.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/电子书/网站源码/网站源码/imooc_es3/imooc_es3/dev.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="33" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -101,16 +82,16 @@
       <file leaf-file-name="Video.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Model/Video.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+            <state relative-caret-position="1566">
+              <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EasySwooleEvent.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EasySwooleEvent.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EasySwooleEvent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="1683">
               <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="e#41#88#0#PHP" expanded="true" />
@@ -150,8 +131,8 @@
         <option value="$PROJECT_DIR$/App/HttpController/Api/Base.php" />
         <option value="$PROJECT_DIR$/ini/base.ini" />
         <option value="$PROJECT_DIR$/dev.php" />
-        <option value="$PROJECT_DIR$/App/Lib/Cache/Video.php" />
         <option value="$PROJECT_DIR$/EasySwooleEvent.php" />
+        <option value="$PROJECT_DIR$/App/Lib/Cache/Video.php" />
       </list>
     </option>
   </component>
@@ -257,12 +238,12 @@
       <option name="presentableId" value="Default" />
       <updated>1589770192663</updated>
       <workItem from="1589770193970" duration="18192000" />
-      <workItem from="1589948777663" duration="6608000" />
+      <workItem from="1589948777663" duration="6727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24800000" />
+    <option name="totallyTimeSpent" value="24919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -525,13 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Model/Video.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -591,13 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/电子书/网站源码/网站源码/imooc_es3/imooc_es3/dev.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="33" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ini/base.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -605,13 +572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Lib/Cache/Video.php">
+    <entry file="file://$USER_HOME$/Desktop/电子书/网站源码/网站源码/imooc_es3/imooc_es3/dev.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="53" column="51" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
-          <folding>
-            <element signature="e#32#66#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="33" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -624,10 +588,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EasySwooleEvent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="1683">
           <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="e#41#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Model/Video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Lib/Cache/Video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+          <folding>
+            <element signature="e#32#66#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
