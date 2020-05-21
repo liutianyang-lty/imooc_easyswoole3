@@ -54,7 +54,7 @@ class Video {
                     $res = Cache::getInstance()->set($this->getCatKey($catId), $data);
                     break;
                 case 'redis':
-                    $res =  Di::getInstance()->get('REDIS')->set($this->getCatKey($catId), $data);
+                    $res =  Di::getInstance()->get('REDIS')->set($this->getCatKey($catId), json_encode($data));
                     break;
                 default :
                     throw new \Exception("cacheType不存在");
