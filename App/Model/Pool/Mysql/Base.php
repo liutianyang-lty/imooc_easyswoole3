@@ -60,4 +60,22 @@ class Base
         $result = $this->db->getOne($this->tableName);
         return $result ?? [];
     }
+
+    /**
+     * 通用方法--add()
+     * @param $data
+     * @return bool|int
+     * @throws \EasySwoole\Mysqli\Exceptions\ConnectFail
+     * @throws \EasySwoole\Mysqli\Exceptions\PrepareQueryFail
+     * @throws \Throwable
+     */
+    public function add($data)
+    {
+        if (empty($data) || !is_array($data)) {
+            return false;
+        }
+
+        $result = $this->db->insert($this->tableName, $data);
+        return $result;
+    }
 }

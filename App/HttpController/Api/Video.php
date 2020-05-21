@@ -157,7 +157,9 @@ class Video extends Base
 
         //写入数据库
         try {
-            $modelObj = new VideoModel();
+            //$modelObj = new VideoModel();
+            //使用数据库连接池
+            $modelObj = new VideoPoolModel();
             $videoId = $modelObj->add($data);
             Logger::getInstance()->log("video-add:" . $videoId);
         } catch (\Exception $e) {
