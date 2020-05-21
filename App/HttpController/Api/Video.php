@@ -31,9 +31,9 @@ class Video extends Base
 
         //获取视频的基本信息
         try {
-            $video = (new VideoModel())->getById($id);
+            //$video = (new VideoModel())->getById($id);
             //改为mysql数据库连接池
-            //$video = (new VideoPoolModel())->getById($id);
+            $video = (new VideoPoolModel())->getById($id);
         } catch (\Exception $e) {
             //使用日志记录错误信息
             Logger::getInstance()->log($e->getMessage());
@@ -93,7 +93,9 @@ class Video extends Base
 
         //获取视频的基本信息
         try {
-            $video = (new VideoModel())->getById($videoId);
+            //$video = (new VideoModel())->getById($videoId);
+            //使用mysql连接池
+            $video = (new VideoPoolModel())->getById($videoId);
         } catch (\Exception $e) {
             //使用日志记录错误信息
             Logger::getInstance()->log($e->getMessage());
