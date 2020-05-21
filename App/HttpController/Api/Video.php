@@ -18,20 +18,11 @@ use App\Model\Pool\Redis\PoolRedis;
 class Video extends Base
 {
     public $logType = "video:";
-    public $redisObj;
-
-    /**
-     * 构造函数
-     * Video constructor.
-     */
-    public function __construct()
-    {
-        $this->redisObj = new PoolRedis();
-    }
 
     /**
      * 视频基本信息接口
      * @return bool|void
+     * @throws \Throwable
      */
     public function index()
     {
@@ -94,12 +85,12 @@ class Video extends Base
         //$result = Di::getInstance()->get("REDIS")->zrevrange(\Yaconf::get("redis.video_play_key"), 0, -1, true);
 
         //改为redis连接池
-        $result = $this->redisObj->zrevrange(\Yaconf::get("redis.video_play_key"), 0, -1, true);
+        $result = (new PoolRedis())->zrevrange(\Yaconf::get("redis.video_play_key"), 0, -1, true);
         //获取日排行
         //$dayRank = Di::getInstance()->get("REDIS")->zrevrange(\Yaconf::get("redis.video_play_key").":".date("Ymd"), 0, 9, true);
 
         //改为redis连接池
-        $dayRank = $this->redisObj->zrevrange(\Yaconf::get("redis.video_play_key").":".date("Ymd"), 0, 9, true);
+        $dayRank = (new PoolRedis())->zrevrange(\Yaconf::get("redis.video_play_key").":".date("Ymd"), 0, 9, true);
         $result['dayRank'] = $dayRank;
         return $this->writeJson(Status::CODE_OK, "OK", $result);
     }
@@ -136,7 +127,9 @@ class Video extends Base
             // 逻辑
             // 将播放数存入redis有序集合中
             try {
-                $res = Di::getInstance()->get("REDIS")->zincrby(\Yaconf::get("redis.video_love"), 1, $videoId);
+                //$res = Di::getInstance()->get("REDIS")->zincrby(\Yaconf::get("redis.video_love"), 1, $videoId);
+                //改为redis
+                $res = (new PoolRedis())->zincrby(\Yaconf::get("redis.video_love"), 1, $videoId);
             } catch (\Exception $e) {
                 //日志记录错误信息
                 Logger::getInstance()->log("zincrby error:" . $e->getMessage());
