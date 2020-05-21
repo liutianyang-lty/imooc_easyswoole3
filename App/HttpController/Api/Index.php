@@ -58,14 +58,14 @@ class Index extends Base
         $catId = !empty($this->params['cat_id']) ? intval($this->params['cat_id']) : 0;
         try {
             $videoData = (new VideoCache())->getCache($catId);
-            //print_r($videoData);
+            print_r($videoData);
         }catch (\Exception $e){
             return $this->writeJson(Status::CODE_BAD_REQUEST, "请求失败");
         }
 
 
         //PHP进行分页
-        $count = count(json_decode($videoData));
+        $count = count($videoData);
         return $this->writeJson(Status::CODE_OK, 'OK', $this->getPagingDatas($count, $videoData));
 
     }
