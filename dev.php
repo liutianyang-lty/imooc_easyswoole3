@@ -29,15 +29,6 @@ return [
         'AUTH'=>null,
         'PUSH_LOG'=>true
     ],
-    'mysql' => [
-        'host' => '127.0.0.1',
-        'port' => '3306',
-        'user' => 'root',
-        'password' => 'root',
-        'database' => 'imooc_video',
-        'timeout' => 15,
-        'charset' => 'utf8',
-    ],
     //fast-cache配置
     'FAST_CACHE' => [
         'PROCESS_NUM' => 1
