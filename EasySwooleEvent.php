@@ -15,9 +15,15 @@ use EasySwoole\Utility\File;
 use App\Lib\Process\ConsumerTest;
 //use EasySwoole\Component\Crontab\CronTab;
 use App\Lib\Cache\Video as videoCache;
+//Timer定时器
 use EasySwoole\Component\Timer;
+//elasticsearch客户端
 use App\Model\Es\EsClient;
+//静态化API
 use EasySwoole\FastCache\Cache;
+//mysql连接池
+use App\Lib\Pool\MysqlPool;
+use EasySwoole\Pool\Manager;
 
 class EasySwooleEvent implements Event
 {
@@ -26,6 +32,10 @@ class EasySwooleEvent implements Event
     {
         // TODO: Implement initialize() method.
         date_default_timezone_set('Asia/Shanghai');
+
+        //注册mysql数据库连接池
+        $mysqlConfig = \Yaconf::get('database');
+        Manager::getInstance()->register(MysqlPool::class,$mysqlConfig['POOL_MAX_NUM']);
     }
 
     public static function mainServerCreate(EventRegister $register)
