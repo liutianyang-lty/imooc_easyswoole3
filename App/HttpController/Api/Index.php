@@ -65,7 +65,7 @@ class Index extends Base
 
 
         //PHP进行分页
-        $count = count($videoData);
+        $count = count(json_decode($videoData));
         return $this->writeJson(Status::CODE_OK, 'OK', $this->getPagingDatas($count, $videoData));
 
     }
