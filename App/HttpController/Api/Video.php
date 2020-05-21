@@ -18,6 +18,16 @@ use App\Model\Pool\Redis\PoolRedis;
 class Video extends Base
 {
     public $logType = "video:";
+    public $redisObj;
+
+    /**
+     * 构造函数
+     * Video constructor.
+     */
+    public function __construct()
+    {
+        $this->redisObj = new PoolRedis();
+    }
 
     /**
      * 视频基本信息接口
@@ -80,10 +90,16 @@ class Video extends Base
      */
     public function rank()
     {
-        $result = Di::getInstance()->get("REDIS")->zrevrange(\Yaconf::get("redis.video_play_key"), 0, -1, true);
+        //redis容器
+        //$result = Di::getInstance()->get("REDIS")->zrevrange(\Yaconf::get("redis.video_play_key"), 0, -1, true);
 
+        //改为redis连接池
+        $result = $this->redisObj->zrevrange(\Yaconf::get("redis.video_play_key"), 0, -1, true);
         //获取日排行
-        $dayRank = Di::getInstance()->get("REDIS")->zrevrange(\Yaconf::get("redis.video_play_key").":".date("Ymd"), 0, 9, true);
+        //$dayRank = Di::getInstance()->get("REDIS")->zrevrange(\Yaconf::get("redis.video_play_key").":".date("Ymd"), 0, 9, true);
+
+        //改为redis连接池
+        $dayRank = $this->redisObj->zrevrange(\Yaconf::get("redis.video_play_key").":".date("Ymd"), 0, 9, true);
         $result['dayRank'] = $dayRank;
         return $this->writeJson(Status::CODE_OK, "OK", $result);
     }

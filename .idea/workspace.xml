@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="611badf3-6efa-4579-8a11-5fcea4e483ec" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/App/Model/Pool/Redis/PoolRedis.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/HttpController/Api/Video.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/HttpController/Api/Video.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EasySwooleEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/EasySwooleEvent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ini/redis.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ini/redis.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Video.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Video.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/HttpController/Api/Video.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+              <caret line="102" column="38" lean-forward="true" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
               <folding>
                 <element signature="e#41#75#0#PHP" expanded="true" />
               </folding>
@@ -41,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EasySwooleEvent.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EasySwooleEvent.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EasySwooleEvent.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="43" column="45" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="45" />
+              <caret line="43" column="45" lean-forward="true" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
               <folding>
                 <element signature="e#41#88#0#PHP" expanded="true" />
               </folding>
@@ -259,12 +255,12 @@
       <option name="presentableId" value="Default" />
       <updated>1589770192663</updated>
       <workItem from="1589770193970" duration="18192000" />
-      <workItem from="1589948777663" duration="27173000" />
+      <workItem from="1589948777663" duration="27668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45365000" />
+    <option name="totallyTimeSpent" value="45860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -574,16 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/HttpController/Api/Base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding>
-            <element signature="e#40#89#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/easyswoole/task/src/Task.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1023">
@@ -649,16 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/HttpController/Api/Video.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="e#41#75#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Model/Pool/Redis/PoolRedis.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
@@ -699,9 +675,29 @@
     <entry file="file://$PROJECT_DIR$/EasySwooleEvent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="45" />
+          <caret line="43" column="45" lean-forward="true" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
           <folding>
             <element signature="e#41#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Api/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#40#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HttpController/Api/Video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="102" column="38" lean-forward="true" selection-start-line="102" selection-start-column="38" selection-end-line="102" selection-end-column="38" />
+          <folding>
+            <element signature="e#41#75#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
