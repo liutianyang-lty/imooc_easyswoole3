@@ -34,7 +34,9 @@ abstract class AbstractPool
         $this->conf = $conf;
         $this->chan = new Channel($conf->getMaxObjectNum() + 1);
         if($conf->getIntervalCheckTime() > 0){
-            swoole_timer_tick($conf->getIntervalCheckTime(),[$this,'intervalCheck']);
+            //这种写法会报错
+            //swoole_timer_tick($conf->getIntervalCheckTime(),[$this,'intervalCheck']);
+            swoole_timer_tick($conf->getIntervalCheckTime(),\Closure::fromCallable([$this,'intervalCheck']));
         }
     }
 
