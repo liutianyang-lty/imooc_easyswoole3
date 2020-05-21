@@ -11,6 +11,7 @@ use EasySwoole\EasySwoole\ServerManager;
 use \EasySwoole\Component\Di;
 use App\Lib\Redis\Redis;
 use App\Lib\Redis\Redis2;
+use EasySwoole\Pool\Tests\Pool;
 use EasySwoole\Utility\File;
 use App\Lib\Process\ConsumerTest;
 //use EasySwoole\Component\Crontab\CronTab;
@@ -24,6 +25,8 @@ use EasySwoole\FastCache\Cache;
 //mysql连接池
 use App\Lib\Pool\MysqlPool;
 use EasySwoole\Component\Pool\PoolManager;
+//redis连接池
+use App\Lib\Pool\RedisPool;
 
 class EasySwooleEvent implements Event
 {
@@ -36,6 +39,10 @@ class EasySwooleEvent implements Event
         //注册mysql数据库连接池
         $mysqlConfig = \Yaconf::get('mysql');
         PoolManager::getInstance()->register(MysqlPool::class,$mysqlConfig['POOL_MAX_NUM']);
+
+        //注册redis连接池
+        $redisConfig = \Yaconf::get('redis');
+        PoolManager::getInstance()->register(RedisPool::class,$redisConfig['POOL_MAX_NUM']);
     }
 
     public static function mainServerCreate(EventRegister $register)

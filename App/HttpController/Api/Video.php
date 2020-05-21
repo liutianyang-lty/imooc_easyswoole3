@@ -9,6 +9,7 @@ use EasySwoole\Validate\Validate;
 use EasySwoole\EasySwoole\Logger;
 use EasySwoole\EasySwoole\Task\TaskManager;
 use EasySwoole\Component\Di;
+use App\Model\Pool\Redis\PoolRedis;
 /**
  * 小视频- 增、删、改、查接口
  * Class Upload
@@ -51,11 +52,18 @@ class Video extends Base
             // 逻辑
             // 将播放数存入redis有序集合中
             try {
-                Di::getInstance()->get('REDIS')->zincrby(\Yaconf::get("redis.video_play_key"), 1, $id);
+                //redis容器
+                //Di::getInstance()->get('REDIS')->zincrby(\Yaconf::get("redis.video_play_key"), 1, $id);
+
+                //reids连接池
+                $redisObj = new PoolRedis();
+                $redisObj->redis->zincrby(\Yaconf::get("redis.video_play_key"), 1, $id);
 
                 //日排行 周排行 月排行 季度排行:
                 //日排行记录
-                Di::getInstance()->get('REDIS')->zincrby(\Yaconf::get("redis.video_play_key").":".date("Ymd"), 1, $id);
+                //Di::getInstance()->get('REDIS')->zincrby(\Yaconf::get("redis.video_play_key").":".date("Ymd"), 1, $id);
+                //使用redis连接池
+                $redisObj->redis->zincrby(\Yaconf::get("redis.video_play_key").":".date("Ymd"), 1, $id);
 
             } catch (\Exception $e) {
                 //日志记录错误信息
