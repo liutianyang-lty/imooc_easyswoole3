@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="611badf3-6efa-4579-8a11-5fcea4e483ec" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/App/Lib/Pool/MysqlPool.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Lib/Pool/MysqlPool.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ini/mysql.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/HttpController/Api/Pool.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/HttpController/Api/Pool.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EasySwooleEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/EasySwooleEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ini/database.ini" beforeDir="false" afterPath="$PROJECT_DIR$/ini/database.ini" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +23,8 @@
       <file leaf-file-name="EasySwooleEvent.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EasySwooleEvent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="243">
+              <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
               <folding>
                 <element signature="e#41#88#0#PHP" expanded="true" />
               </folding>
@@ -28,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MysqlPool.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MysqlPool.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Lib/Pool/MysqlPool.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="363">
@@ -61,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pool.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Pool.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/HttpController/Api/Pool.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+            <state relative-caret-position="330">
+              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
               <folding>
                 <element signature="e#41#68#0#PHP" expanded="true" />
               </folding>
@@ -73,32 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractPool.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/easyswoole/component/src/Pool/AbstractPool.php">
+      <file leaf-file-name="mysql.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ini/mysql.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pool.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/电子书/网站源码/网站源码/imooc_es3/imooc_es3/App/HttpController/Api/Pool.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-              <folding>
-                <element signature="e#41#68#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ini/database.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="264">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -106,8 +89,8 @@
       <file leaf-file-name="dev.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+            <state relative-caret-position="276">
+              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -144,13 +127,13 @@
         <option value="$PROJECT_DIR$/ini/base.ini" />
         <option value="$PROJECT_DIR$/App/Lib/Pool/RedisPool.php" />
         <option value="$PROJECT_DIR$/App/Lib/Pool/RedisObject.php" />
-        <option value="$PROJECT_DIR$/EasySwooleEvent.php" />
         <option value="$PROJECT_DIR$/vendor/easyswoole/component/src/Pool/AbstractPool.php" />
         <option value="$PROJECT_DIR$/App/Lib/Pool/MysqlObject.php" />
-        <option value="$PROJECT_DIR$/App/HttpController/Api/Pool.php" />
-        <option value="$PROJECT_DIR$/ini/database.ini" />
-        <option value="$PROJECT_DIR$/dev.php" />
         <option value="$PROJECT_DIR$/App/Lib/Pool/MysqlPool.php" />
+        <option value="$PROJECT_DIR$/dev.php" />
+        <option value="$PROJECT_DIR$/ini/database.ini" />
+        <option value="$PROJECT_DIR$/App/HttpController/Api/Pool.php" />
+        <option value="$PROJECT_DIR$/EasySwooleEvent.php" />
       </list>
     </option>
   </component>
@@ -223,15 +206,7 @@
             <path>
               <item name="imooc_easyswoole3" type="b2602c69:ProjectViewProjectNode" />
               <item name="imooc_easyswoole3" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Lib" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="imooc_easyswoole3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="imooc_easyswoole3" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Lib" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Pool" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ini" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="imooc_easyswoole3" type="b2602c69:ProjectViewProjectNode" />
@@ -260,6 +235,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\imooc_easyswoole3\ini" />
       <recent name="E:\imooc_easyswoole3\vendor\easyswoole" />
       <recent name="E:\imooc_easyswoole3\App\Lib" />
       <recent name="E:\imooc_easyswoole3\vendor\easyswoole\component\src" />
@@ -290,12 +266,12 @@
       <option name="presentableId" value="Default" />
       <updated>1589770192663</updated>
       <workItem from="1589770193970" duration="18192000" />
-      <workItem from="1589948777663" duration="16899000" />
+      <workItem from="1589948777663" duration="17112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35091000" />
+    <option name="totallyTimeSpent" value="35304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -306,8 +282,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26091826" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20332618" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26091826" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20332618" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -329,13 +305,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App/Lib/ClassArr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/HttpController/Api/Upload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -630,16 +599,6 @@
     <entry file="file://$PROJECT_DIR$/vendor/easyswoole/component/src/Pool/PoolManager.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/EasySwooleEvent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="e#41#88#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/easyswoole/mysqli/src/Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -681,17 +640,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ini/database.ini">
+    <entry file="file://$PROJECT_DIR$/App/Lib/Pool/MysqlPool.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="363">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        <state relative-caret-position="276">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ini/database.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ini/mysql.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/电子书/网站源码/网站源码/imooc_es3/imooc_es3/App/HttpController/Api/Pool.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="e#41#68#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -702,30 +685,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/电子书/网站源码/网站源码/imooc_es3/imooc_es3/App/HttpController/Api/Pool.php">
+    <entry file="file://$PROJECT_DIR$/EasySwooleEvent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="243">
+          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding>
-            <element signature="e#41#68#0#PHP" expanded="true" />
+            <element signature="e#41#88#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/HttpController/Api/Pool.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        <state relative-caret-position="330">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
           <folding>
             <element signature="e#41#68#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Lib/Pool/MysqlPool.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>

@@ -34,7 +34,7 @@ class EasySwooleEvent implements Event
         date_default_timezone_set('Asia/Shanghai');
 
         //注册mysql数据库连接池
-        $mysqlConfig = \Yaconf::get('database');
+        $mysqlConfig = \Yaconf::get('mysql');
         PoolManager::getInstance()->register(MysqlPool::class,$mysqlConfig['POOL_MAX_NUM']);
     }
 
