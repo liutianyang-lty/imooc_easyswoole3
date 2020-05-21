@@ -1,7 +1,7 @@
 <?php
 namespace App\Lib\Pool;
 use EasySwoole\Component\Pool\PoolObjectInterface;
-use EasySwoole\Mysqli\Mysqli;
+use EasySwoole\Mysqli;
 
 class MysqlObject extends Mysqli implements PoolObjectInterface
 {
