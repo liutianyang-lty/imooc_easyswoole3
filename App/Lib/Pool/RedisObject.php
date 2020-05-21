@@ -1,10 +1,10 @@
 <?php
 namespace App\Lib\Pool;
 
-use EasySwoole\Pool\ObjectInterface;
+use EasySwoole\Component\Pool\PoolObjectInterface;
 use Swoole\Coroutine\Redis;
 
-class RedisObject extends Redis implements ObjectInterface
+class RedisObject extends Redis implements PoolObjectInterface
 {
     function gc()
     {

@@ -23,7 +23,7 @@ use App\Model\Es\EsClient;
 use EasySwoole\FastCache\Cache;
 //mysql连接池
 use App\Lib\Pool\MysqlPool;
-use EasySwoole\Pool\Manager;
+use EasySwoole\Component\Pool\PoolManager;
 
 class EasySwooleEvent implements Event
 {
@@ -35,7 +35,7 @@ class EasySwooleEvent implements Event
 
         //注册mysql数据库连接池
         $mysqlConfig = \Yaconf::get('database');
-        Manager::getInstance()->register(MysqlPool::class,$mysqlConfig['POOL_MAX_NUM']);
+        PoolManager::getInstance()->register(MysqlPool::class,$mysqlConfig['POOL_MAX_NUM']);
     }
 
     public static function mainServerCreate(EventRegister $register)

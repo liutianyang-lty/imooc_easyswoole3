@@ -1,9 +1,9 @@
 <?php
 namespace App\Lib\Pool;
-use EasySwoole\Pool\ObjectInterface;
+use EasySwoole\Component\Pool\PoolObjectInterface;
 use EasySwoole\Mysqli\Mysqli;
 
-class MysqlObject extends Mysqli implements ObjectInterface
+class MysqlObject extends Mysqli implements PoolObjectInterface
 {
     function gc()
     {

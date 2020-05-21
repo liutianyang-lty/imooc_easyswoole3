@@ -1,7 +1,7 @@
 <?php
 namespace App\Lib\Pool;
 
-use EasySwoole\Pool\AbstractPool;
+use EasySwoole\Component\Pool\AbstractPool;
 
 class RedisPool extends AbstractPool
 {
