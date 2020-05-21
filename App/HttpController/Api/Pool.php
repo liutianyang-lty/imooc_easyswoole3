@@ -9,7 +9,7 @@ class Pool extends Base
     public function mysqlDemo()
     {
         $config = \Yaconf::get('database');
-        $db = PoolManager::getInstance()->getPool(MysqlPool::class)->getObj($config['POOL_MAX_NUM']);
+        $db = PoolManager::getInstance()->getPool(MysqlPool::class)->getObj($config);
         $result = ($db->get('video'));
         return $this->writeJson(200, 'Ok', $result);
     }
