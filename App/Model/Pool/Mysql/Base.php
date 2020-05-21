@@ -9,6 +9,11 @@ class Base
 {
     public $db;
 
+    /**
+     * 获取mysql连接池
+     * Base constructor.
+     * @throws \Exception
+     */
     public function __construct()
     {
         $timeout = \Yaconf::get('mysql.POOL_TIME_OUT');
@@ -24,6 +29,9 @@ class Base
         }
     }
 
+    /**
+     * 释放数据库连接
+     */
     public function __destruct()
     {
         if ($this->db instanceof MysqlObject) {
@@ -32,5 +40,24 @@ class Base
             // 安全起见 请一定记得设置为null 避免再次使用导致不可预知的问题
             $this->db = null;
         }
+    }
+
+    /**
+     * 使用数据库连接池获取数据
+     * @param $id
+     * @return array|\EasySwoole\Mysqli\Mysqli|mixed|null
+     * @throws \EasySwoole\Mysqli\Exceptions\ConnectFail
+     * @throws \EasySwoole\Mysqli\Exceptions\PrepareQueryFail
+     * @throws \Throwable
+     */
+    public function getById($id)
+    {
+        $id = intval($id);
+        if (empty($id)) {
+            return [];
+        }
+        $this->db->where('id', $id);
+        $result = $this->db->getOne($this->tableName);
+        return $result ?? [];
     }
 }

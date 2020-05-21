@@ -2,6 +2,7 @@
 namespace App\HttpController\Api;
 
 use App\Model\Video as VideoModel;
+use App\Model\Pool\Mysql\Video as VideoPoolModel;
 use EasySwoole\Http\Message\Status;
 //use EasySwoole\Core\Utility\Validate\Rules;
 use EasySwoole\Validate\Validate;
@@ -30,7 +31,9 @@ class Video extends Base
 
         //获取视频的基本信息
         try {
-            $video = (new VideoModel())->getById($id);
+            //$video = (new VideoModel())->getById($id);
+            //改为mysql数据库连接池
+            $video = (new VideoPoolModel())->getById($id);
         } catch (\Exception $e) {
             //使用日志记录错误信息
             Logger::getInstance()->log($e->getMessage());

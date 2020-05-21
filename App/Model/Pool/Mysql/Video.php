@@ -1,7 +1,7 @@
 <?php
 namespace App\Model\Pool\Mysql;
 
-use App\Model\Base;
+use App\Model\Pool\Mysql\Base;
 
 class Video extends Base
 {
