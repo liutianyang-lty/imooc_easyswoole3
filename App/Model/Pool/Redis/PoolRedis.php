@@ -1,10 +1,15 @@
 <?php
 namespace App\Model\Pool\Redis;
 
-use App\HttpController\Api\Pool;
 use App\Lib\Pool\RedisObject;
 use App\Lib\Pool\RedisPool;
 use EasySwoole\Component\Pool\PoolManager;
+
+/**
+ * Redis连接池基础类库封装
+ * Class PoolRedis
+ * @package App\Model\Pool\Redis
+ */
 class PoolRedis{
     public $redis;
 
