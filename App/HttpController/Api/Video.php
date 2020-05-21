@@ -108,7 +108,7 @@ class Video extends Base
 
         //点赞数量递增
         // 投放task异步任务
-        TaskManager::async(function () use($videoId) {
+        TaskManager::getInstance()->async(function () use($videoId) {
             // 逻辑
             // 将播放数存入redis有序集合中
             try {
