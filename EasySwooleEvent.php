@@ -38,6 +38,7 @@ class EasySwooleEvent implements Event
 
         //注册mysql数据库连接池
         $mysqlConfig = \Yaconf::get('mysql');
+        print_r($mysqlConfig);
         PoolManager::getInstance()->register(MysqlPool::class,$mysqlConfig['POOL_MAX_NUM']);
 
         //注册redis连接池
